@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  max-width: 100vw;
+  min-height: 100vh;
+}
+
+.left {
+  width: 510px;
+  height: 1018px;
+  border-radius: 255px;
+  background: linear-gradient(225deg, #e844ff 0%, #8739ff 100%);
+  position: absolute;
+  top: -318px;
+  left: -90px;
+}
+.mobile-box {
+  position: absolute;
+  top: 159px;
+  left: 372.5px;
+  border-radius: 20px;
+  width: 228px;
+  height: 483px;
+  border-radius: 20px;
+  border: 1px solid rgba(62, 39, 83, 0.05);
+  background: #f5f3f7;
+}
+.text {
+  overflow-x: hidden;
+}
+
+.text > h2 {
+  position: absolute;
+  top: 309px;
+  left: 735px;
+  color: #3e2753;
+  font-family: "Rubik", sans-serif;
+  font-size: 40px;
+  font-weight: 500;
+  width: 445px;
+}
+
+.text > p {
+  color: #a39da9;
+  font-family: "Rubik", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  width: 445px;
+  position: absolute;
+  top: 380px;
+  left: 735px;
+}
+
+.right {
+  position: absolute;
+  top: 119px;
+  right: -185px;
+  border-radius: 255px;
+  width: 510px;
+  height: 1018px;
+  border-radius: 255px;
+  opacity: 0.03;
+  background: linear-gradient(225deg, #e844ff 0%, #8739ff 100%);
+}
